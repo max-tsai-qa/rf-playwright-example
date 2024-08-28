@@ -11,7 +11,7 @@ Task Timeout    ${TEST_TIMEOUT}
 Add One ToDos And Check Items
     ${item_name} =    Create Fake Item Name
     Input Text Into ToDo    ${item_name}
-    Verify Element Text Should Display Correctly    ${Common_TODO_Count_Test}    1 item left!
+    Verify Element Text Should Display Correctly    ${Common_TODO_Count_Test}    2 item left!
 
 *** Keywords ***
 Suite Setup 
